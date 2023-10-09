@@ -1,0 +1,40 @@
+.container__banner  {
+    font-family: var(--fonte-principal);
+    background: var(--gradiente-azul);
+}
+
+.banner {
+    color: var(--branco);
+    padding: calc(100px + var(--lg)) 0 var(--lg);
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner__imagens {
+    width: 100%;
+    height: 388px;
+    margin: var(--lg) 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner__box {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--azul-alura-escuro);
+    line-height: var(--md);
+}
+
+.box__texto {
+    width: 400px;
+    background-color: var(--branco);
+    border-radius: var(--sm);
+    display: flex;
+    align-items: center;
+    padding: var(--md);
+    box-shadow: var(--box-shadow);
+}

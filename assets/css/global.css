@@ -1,0 +1,19 @@
+@import './reset.css';
+@import './fontes.css';
+@import './variaveis.css';
+
+.container {
+  width: var(--desktop); /* mudar no responsivo */
+  margin: 0 auto;
+}
+
+.texto--bold {
+  font-weight: 700;
+}
+
+.titulo__secoes {
+  font-weight: 400;
+  font-size: var(--lg);
+  font-family: var(--fonte-secundaria);
+  color: var(--azul-alura-claro);
+}

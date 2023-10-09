@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre a turma</title>
+  <link rel="stylesheet" href="./assets/css/global.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/banner.css">
+  <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <img src="./assets/icones/logo-include.svg" alt="Logo do Alura Include na cor azul">
+
+      <nav class="nav">
+        <ul class="menu__list">
+          <li><a href="index.html" class="menu__link">Sobre a turma</a></li>
+          <!-- 🐤 Adicionar link no href 🐤-->
+          <li><a href="#" class="menu__link">Participantes</a></li>
+          <li><a href="https://www.alura.com.br/empresas/include" class="menu__link">Sobre o Alura Include</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="container__banner">
+    <div class="banner container" id="recado-turma">
+      <p>Temos um recado para você, que foi participante do <span class="texto--bold">Alura Include</span></p>
+      <div class="banner__imagens">
+        <img src="assets/images/banner-1.png"
+          alt="Nessa imagem tem três pessoas, uma mulher no lado esquerdo da imagem sentada no chão usando um notebook, um homem no centro da imagem tocando em uma tela, e uma outra mulher no lado direito da imagem sentada em uma cadeira usando um um celular">
+        <img src="assets/images/banner-2.png"
+          alt="Na imagem, tem uma mulher sentada no chão usando um notebook. Do lado direito dela, tem um cachorro deitado, e do lado esquerdo, uma xícara de café. Em cima dela, tem uma lâmpada simbolizando a inspiração, que se conecta com 5 tecnologias.">
+      </div>
+      <div class="banner__box">
+        <div class="box__texto">
+          <p>
+            A tecnologia nunca esteve tão presente em nossas vidas quanto agora. Independentemente da sua área de
+            atuação, compreender os fundamentos tecnológicos é uma vantagem que vai impulsionar seu desenvolvimento
+            pessoal e profissional.
+          </p>
+        </div>
+        <div class="box__texto">
+          <p>
+            Dar os primeiros passos nesse universo é algo pode parecer assustador, especialmente por se tratar de algo
+            aparentemente complexo como a tecnologia. Mas superar esse medo é essencial para você abraçar oportunidades
+            futuras.
+          </p>
+        </div>
+        <div class="box__texto">
+          <p>
+            Esperamos que o <span class="text--bold">Alura Include</span> tenha proporcionado a você uma experiência
+            encantadora, e uma
+            oportunidade
+            valiosa para seu aprendizado e carreira.
+            Parabéns por ter chegado até aqui!
+            <br><br>
+            Com carinho, equipe Alura Include.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Section "Recado by Fernando"-->
+
+  <section class="main__fotos__carrosel container" id="galeria-fotos" carrosel()>
+    <!-- 🐤 Colocar fotos das monitorias 🐤-->
+    <img src="./assets/images/print-codigo-monitoria.jpg" class="imagem__carrosel"
+      alt="código feito em projetos do alura include durante monitoria">
+    <img src="./assets/images/foto-monitoria-central.jpg" class="imagem__carrosel" alt="foto monitoria central">
+    <img src="./assets/images/trajetoria-alura-include.jpg" class="imagem__carrosel" alt="print da apresentação sobre o projeto Alura Include">
+    <img src="./assets/images/print-dev-board.png" class="imagem__carrosel" alt="construção do  projeto dev board durante monitorias">
+  </section>
+
+  <section class="container">
+    <h2 class="titulo__secoes" id="sobre-turma">Sobre a turma</h2>
+    
+
+    <div class="main__apresentacao__resultados">
+
+      <div class="container__cards-sobreATurma">
+        <div class="card-sobreATurma">
+          <p>Você participou da turma
+            <span class="texto--bold"><!-- 🐤 Colocar nome da turma 🐤--></span>, que
+            contou com <span class="texto--bold"><!-- 🐤 Colocar quantidade de alunos 🐤--> pessoas</span> que
+            embarcaram nesse desafio.
+            Um agradecimento especial a <span class="texto--bold"><!-- 🐤 Colocar nome da empresa 🐤--></span> que
+            proporcionou essa
+            oportunidade!
+          </p>
+        </div>
+
+        <div class="card-sobreATurma">
+          <p>Foram mais de
+            <span class="texto--bold"><!-- 🐤 Colocar quantidade de horas de estudo (negrito) 🐤-->
+              horas de estudo</span>, que só puderam ser concluídos devido a sua dedicação e o seu esforço.
+            Você finalizou <span class="texto--bold"><!-- 🐤 Colocar número de cursos realizados (negrito) 🐤-->cursos
+              em
+              <!-- 🐤 Colocar número de semanas para finalização dos cursos (negrito) 🐤--> semanas</span>, realizou
+            diversas
+            atividades e
+            participou de <span class="texto--bold"><!-- 🐤 Colocar total de horas de monitorias (negrito) 🐤--> horas
+              de monitoria</span> ao vivo com
+            instrutor
+            <!-- 🐤 Colocar nome do instrutor 🐤-->.
+          </p>
+        </div>
+
+        <div class="card-sobreATurma">
+          <p>O time Alura Include vai sentir saudades de interagir com vocês,
+            e
+            esperamos que vocês tenham um futuro brilhante!
+            Confira abaixo alguns momentos que marcou a sua jornada de aprendizado.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <main class="container">
+    <!-- 🐤 Colocar cursos e desenvolvidos 🐤-->
+    <div class="dados__cursos" id="dados-turma">
+      <div class="dados categorias">
+        <button class="dados__botao" data-target="categoria">
+          Engajamento por categoria
+          <img id="categoria__icone-botao-fechado" class="dados__icone-botao" style="display: block;"
+            src="assets/icones/btn-estatistica-close.svg">
+          <img id="categoria__icone-botao-aberto" class="dados__icone-botao" style="display: none;"
+            src="assets/icones/btn-estatistica-open.svg">
+        </button>
+        <img id="categoria__img" class="dados__imagem" style="display: none;"
+          src="assets/images/grafico-engajamento.png" alt="">
+      </div>
+      <div class="dados subcategorias">
+        <button class="dados__botao" data-target="subcategoria">
+          Engajamento por subcategoria
+          <img id="subcategoria__icone-botao-fechado" class="dados__icone-botao" style="display: block;"
+            src="assets/icones/btn-estatistica-close.svg">
+          <img id="subcategoria__icone-botao-aberto" class="dados__icone-botao" style="display: none;"
+            src="assets/icones/btn-estatistica-open.svg">
+        </button>
+        <img id="subcategoria__img" class="dados__imagem" style="display: none;"
+          src="assets/images/grafico-engajamento-subcategoria.png" alt="">
+      </div>
+      <div class="dados cursos-concluidos">
+        <button class="dados__botao" data-target="cursos-concluidos">
+          Cursos mais concluídos
+          <img id="cursos-concluidos__icone-botao-fechado" class="dados__icone-botao" style="display: block;"
+            src="assets/icones/btn-estatistica-close.svg">
+          <img id="cursos-concluidos__icone-botao-aberto" class="dados__icone-botao" style="display: none;"
+            src="assets/icones/btn-estatistica-open.svg">
+        </button>
+        <img id="cursos-concluidos__img" class="dados__imagem" style="display: none;"
+          src="assets/images/grafico-cursos-concluidos.png" alt="">
+      </div>
+  </main>
+
+  <div class="trajetoria__background">
+    <section class="container">
+      <h2 class="titulo__secoes" id="trajetoria">Sua trajetória</h2>
+      <div class="main__trajetoria">
+
+        <div class="main__trajetoria__card__semana">
+          <div class="main__trajetoria__card main__card_acima">
+            <img class="main__trajetoria__icones" src="./assets/icones/dir-js-back.svg"
+              alt="Ícone circular com as letras JS referente a JavaScript, com fundo verde claro e borda cinza escura.">
+            <p class="main__trajetoria__textos">Principais conceitos de lógica de programação: variáveis, operadores,
+              condicionais, funções, laços e listas.</p>
+          </div>
+          <p class="main__trajetoria__semanas">1ª a 3ª semana</p>
+        </div>
+
+        <div class="main__trajetoria__card__semana">
+          <p class="main__trajetoria__semanas">4ª a 7ª semana</p>
+          <div class="main__trajetoria__card main__card_abaixo">
+            <img class="main__trajetoria__icones" src="./assets/icones/html-css.svg"
+              alt="Ícone de um editor de código com tag html, com funzo azul.">
+            <p class="main__trajetoria__textos">HTML semântico para criação de websites estáticos, e CSS para deixar as
+              páginas visualmente elegantes e modernas.</p>
+          </div>
+        </div>
+
+        <div class="main__trajetoria__card__semana">
+          <div class="main__trajetoria__card main__card_acima">
+            <img class="main__trajetoria__icones" src="./assets/icones/js.svg"
+              alt="Ícone da linguagem JavaScript com fundo laranja, referente a manipulação do DOM.">
+            <p class="main__trajetoria__textos">Dinamismo para páginas web com JavaScript, possibilitando aos usuários
+              uma maior interação com a aplicação.</p>
+          </div>
+          <p class="main__trajetoria__semanas">8ª a 9ª semana</p>
+        </div>
+
+        <div class="main__trajetoria__card__semana">
+          <p class="main__trajetoria__semanas">10ª semana</p>
+          <div class="main__trajetoria__card main__card_abaixo">
+            <img class="main__trajetoria__icones" src="./assets/icones/git-github.svg"
+              alt="Ícone do Git, com fundo azul.">
+            <p class="main__trajetoria__textos">Git e GitHub, para compreender o versionamento de códigos e o fluxo de
+              desenvolvimento em equipe.
+            </p>
+          </div>
+        </div>
+
+        <div class="main__trajetoria__card__semana">
+          <div class="main__trajetoria__card main__card_acima">
+            <img class="main__trajetoria__icones" src="./assets/icones/dir-java.svg"
+              alt="Ícone de uma xícara de café, referente a linguagem de programação Java, com fundo azul.">
+            <p class="main__trajetoria__textos">Direcionamento para o back-end, seguindo com a introdução a linguagem
+              Java e orientação a objetos.</p>
+          </div>
+          <p class="main__trajetoria__semanas">11ª a 12ª semana</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="footer__apresentacao__geral container">
+      <div class="footer__listas__links">
+        <ul>
+          <p class="footer__titulo__links ">Sobre a turma</p>
+          <li><a class="footer__links" href="#recado-turma">Recado para a turma</a></li>
+          <li><a class="footer__links" href="#galeria-fotos">Galeria de fotos</a></li>
+          <li><a class="footer__links" href="#sobre-turma">Sobre a turma</a></li>
+          <li><a class="footer__links" href="#dados-turma">Dados da turma</a></li>
+          <li><a class="footer__links" href="#trajetoria">Trajetória</a></li>
+          <li><a class="footer__links" href="#videos">Vídeos</a></li>
+          <li><a class="footer__links" href="https://senac.milenaemmert.repl.co/">Participantes</a></li>
+        </ul>
+
+        <ul>
+          <p class="footer__titulo__links">Conteúdos</p>
+          <li><a class="footer__links" href="https://www.alura.com.br/artigos">Artigos</a></li>
+          <li><a class="footer__links"
+              href="https://www.alura.com.br/artigos/como-participar-comunidade-alura-discord">Comunidade</a></li>
+          <li><a class="footer__links" href="https://www.alura.com.br/dev-em-t">Dev em T</a></li>
+          <li><a class="footer__links" href="https://techguide.sh/">Tech Guide</a></li>
+
+          <li><a class="footer__links" href="#"></a></li>
+        </ul>
+
+        <ul>
+          <p class="footer__titulo__links">Alura Include</p>
+          <li><a class="footer__links" href="https://www.alura.com.br/empresas/include">Sobre o Alura Include</a></li>
+          <li><a class="footer__links" href="https://www.alura.com.br/empresas">Alura para Empresas</a></li>
+        </ul>
+
+        <div class="footer__logos__links">
+          <div class="footer__logos__redes">
+            <a href="https://www.youtube.com/c/AluraparaEmpresas"><img src="./assets/icones/youtube-logo.svg"
+                alt="Logo Youtube azul com fundo circular azul claro"></a>
+            <a href="https://br.linkedin.com/company/alura-para-empresas"><img src="./assets/icones/linkedln-logo.svg"
+                alt="Logo LinkedIn azul com fundo circular azul claro"></a>
+          </div>
+          <div class="footer__logos__sites">
+            <a href="https://www.alura.com.br/empresas/include"><img src="./assets/icones/logo-alura-include.svg"
+                alt="logo Alura Include azul marinho"></a>
+            <a href="https://www.alura.com.br/empresas"><img src="./assets/icones/logo-alura-para-empresas.svg"
+                alt="logo Alura para Empresas azul marinho"></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer__apresentacao_final">
+        <p class="footer__links">Ensino e capacitação dedicados à formação de profissionais de tecnologia.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+ :root {
+  font-size: 16px;
+  --fonte-principal: 'Poppins', sans-serif;
+  --fonte-secundaria: 'Monofett', monospace;
+
+  --azul-claro: #D9E4F0;
+  --azul-alura-claro: #216FF4;
+  --azul-alura-escuro: #0C0553;
+  --gradiente-azul: linear-gradient(to bottom, #134787, #2268E3);
+  --vermelho-alaranjado: #EE3F08;
+  --branco: #FFFFFF;
+  --cinza-claro: #EFEFEF;
+  --box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
+  --shadow-menu: 0 7px 50px rgba(12,5,83,.09);
+  
+  --xl: 5rem;
+  --lg: 2.5rem;
+  --md: 1.5rem;
+  --sm: 1rem;
+  --xs: .5rem;
+
+  --desktop: 1280px;
+ }
