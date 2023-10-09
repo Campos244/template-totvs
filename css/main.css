@@ -127,7 +127,7 @@
 
 .main__trajetoria__card {
   background-color: var(--branco);
-  height: 307px;
+  height: 340px;
   width: 243px;
   border-radius: var(--sm);
   display: flex;
