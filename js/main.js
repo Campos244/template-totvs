@@ -37,7 +37,7 @@ function carrosel(){
         numeroImagem = 0;
         imagens.style.transform = `translateX(0)`;
     } else {
-        imagens.style.transform = `translateX(${-numeroImagem * 1122}px)`;
+        imagens.style.transform = `translateX(${-numeroImagem * 600}px)`;
     }
 }
 
